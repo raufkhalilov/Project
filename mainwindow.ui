@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>10</y>
+      <width>411</width>
+      <height>261</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QPushButton" name="pushButton">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>230</y>
+       <width>131</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Что испрвили?</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>230</y>
+       <width>131</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Что нового?</string>
+     </property>
+    </widget>
+    <widget class="QTableWidget" name="tableWidget">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>80</y>
+       <width>221</width>
+       <height>141</height>
+      </rect>
+     </property>
+     <row>
+      <property name="text">
+       <string>Версия прошивки:</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Дата прошивки:</string>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Описание:</string>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>9</pointsize>
+       </font>
+      </property>
+     </row>
+     <row>
+      <property name="text">
+       <string>Кеш</string>
+      </property>
+     </row>
+     <column>
+      <property name="text">
+       <string/>
+      </property>
+     </column>
+     <item row="0" column="0">
+      <property name="text">
+       <string>32.578.11.0.1</string>
+      </property>
+     </item>
+     <item row="1" column="0">
+      <property name="text">
+       <string>21.06.2022</string>
+      </property>
+     </item>
+     <item row="2" column="0">
+      <property name="text">
+       <string>прошивка для стабильности устройства</string>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>6</pointsize>
+       </font>
+      </property>
+     </item>
+     <item row="3" column="0">
+      <property name="text">
+       <string>errweqdfferweds</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>80</y>
+       <width>231</width>
+       <height>20</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Обновление устройства DTYU4656</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
